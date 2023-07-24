@@ -1,0 +1,44 @@
+.content-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.card {
+  padding: 10px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 8px;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+
+.gender-input {
+  padding-right: 15px;
+}
+
+.dropdown {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 750px) {
+  .content-details {
+    flex-direction: column;
+  }
+
+  .card {
+    /* padding: 10px 40px; */
+  }
+}
+
+sl-button {
+  padding: 8px;
+
+}

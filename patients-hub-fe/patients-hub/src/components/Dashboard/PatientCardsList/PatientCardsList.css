@@ -1,0 +1,10 @@
+sl-icon-button {
+  font-size: 10.5rem;
+  color: #2d9fc2;
+  width: 15rem;
+  height: 16.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.625rem;
+}

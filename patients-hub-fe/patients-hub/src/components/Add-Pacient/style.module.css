@@ -1,0 +1,61 @@
+.form-box {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  width: 100%;
+  color: #4a5568;
+  font-family: "Roboto", sans-serif;
+}
+
+.areaZone {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.areaData {
+  max-width: 100%;
+  width: 30%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  border: none;
+  color: #fff;
+  width: 100%;
+  max-width: 350px;
+  background-color: #4d04c4;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 0.2rem;
+  box-shadow: 5px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.submit:hover,
+.submit:active {
+  background-color: #6f27e3;
+}
+
+/* 640 px mobile */
+@media only screen and (max-width: 40em) {
+  .areaData {
+    width: 100%;
+  }
+}

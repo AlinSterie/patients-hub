@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Allergy and Immunology",
+    "color": "#9bffb1"
+  },
+  {
+    "name": "Anesthesiology",
+    "color": "#FFD0B9"
+  },
+  {
+    "name": "Cardiology",
+    "color": "#FF0000"
+  },
+  {
+    "name": "Dermathology",
+    "color": "#FBE870"
+  },
+  {
+    "name": "Gastroenterology",
+    "color": "#FF9A00"
+  },
+  {
+    "name": "Pediatrics",
+    "color": "#6CDAE7"
+  },
+  {
+    "name": "Internal Medicine",
+    "color": "#B2F302"
+  },
+  {
+    "name": "Neurology",
+    "color": "#FFCC33"
+  },
+  {
+    "name": "Oncology",
+    "color": "#66FF66"
+  },
+  {
+    "name": "Plastic Surgery",
+    "color": "#FF6EFF"
+  },
+  {
+    "name": "General Surgery",
+    "color": "#FF6037"
+  }
+]

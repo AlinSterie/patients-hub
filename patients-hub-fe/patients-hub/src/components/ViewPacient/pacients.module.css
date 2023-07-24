@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+.pacient-card {
+  padding: 4rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pacient-card-name {
+  text-decoration: underline;
+  font-weight: medium;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+}
+
+.section-title {
+  text-align: left;
+  display: block;
+  font-weight: 700;
+}
+
+.section-info {
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.section-content {
+  margin: 0 0 0 20px;
+}
+
+.pacient-details {
+  width: 800px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+  border: 0px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.edit-pacient-button {
+  width: 20px;
+  background-color: #ffffff00;
+  border: 0px;
+  margin: 20px;
+}
+
+.dropdown {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+
+.dropdown--open {
+  max-height: 500px;
+  transition: max-height 1s ease-in;
+}
+
+.dropdown-text {
+  text-align: justify;
+  width: 800px;
+  margin-bottom: 10px;
+}

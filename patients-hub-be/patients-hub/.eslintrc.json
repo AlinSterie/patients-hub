@@ -1,0 +1,15 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "script"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+    // "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+  }
+}

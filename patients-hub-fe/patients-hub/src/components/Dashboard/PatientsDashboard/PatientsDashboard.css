@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 75rem;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.dashboard-patients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+sl-progress-bar {
+  margin: 1rem 0 5rem 0;
+  width: 30rem;
+  --height: 3rem;
+  --indicator-color: #ff6037;
+}
+
+.header-specialities {
+  margin: 1rem 0 0 4rem;
+}
+
+.header-specialities h1 {
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+
+.speciality-group {
+  align-items: center;
+  margin: 0.5rem 5rem;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.speciality-pill {
+  border: 1.5px solid #4d04c4;
+  border-radius: 16px;
+  width: 13rem;
+  height: 3rem;
+  font-family: "Inter", sans-serif;
+  background-color: #8067e39d;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.bullet {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+
+.speciality-show {
+  background-color: #ffffff00;
+  border: 0px;
+  width: 500px;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  height: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media screen and (max-width: 479px) {
+  .dashboard-container {
+    height: auto;
+    padding: 0 1rem;
+    width: 48rem;
+    margin: 2rem auto;
+  }
+
+  .speciality-show {
+    width: 41rem;
+    justify-content: center;
+  }
+
+  .header-specialities h1 {
+    text-align: center;
+    min-width: 41rem;
+  }
+
+  .filters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .dashboard-patients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .speciality-group {
+    width: 41rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .dashboard-container {
+    height: auto;
+    padding: 0 1rem;
+    width: 48rem;
+    margin: 2rem auto;
+  }
+
+  .speciality-show {
+    width: 41rem;
+    justify-content: center;
+  }
+
+  .header-specialities h1 {
+    text-align: center;
+    min-width: 41rem;
+    margin-right: 3rem;
+  }
+
+  .filters-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .dashboard-patients {
+    display: flex;
+    justify-content: center;
+  }
+
+  .speciality-group {
+    width: 41rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 875px) {
+  .dashboard-container {
+    height: auto;
+    padding: 0 1rem;
+    width: 48rem;
+    margin: 2rem auto;
+  }
+
+  .speciality-show {
+    width: 41rem;
+    justify-content: center;
+  }
+
+  .header-specialities h1 {
+    text-align: center;
+    min-width: 41rem;
+    margin-right: 3rem;
+  }
+
+  .filters-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .dashboard-patients {
+    display: flex;
+    justify-content: center;
+  }
+
+  .speciality-group {
+    width: 41rem;
+  }
+}
+
+@media screen and (min-width: 876px) and (max-width: 1183px) {
+  .dashboard-container {
+    height: auto;
+    width: 55rem;
+    margin: 2rem auto;
+  }
+  .filters-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .dashboard-patients {
+    display: flex;
+    justify-content: center;
+  }
+
+  .speciality-group {
+    align-items: center;
+    margin: 0.5rem 5rem;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

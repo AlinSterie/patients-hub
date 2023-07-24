@@ -1,0 +1,40 @@
+.card {
+  justify-content: flex-start;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.date {
+  color: #9747ff;
+}
+.date-container-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.date-edit {
+  margin: 30px 70px;
+}
+.pencil {
+  color: #ff9a00;
+  margin-left: 8px;
+}
+.pencil:hover {
+  cursor: pointer;
+}
+.info {
+  max-width: 951px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* 640 px mobile */
+@media only screen and (max-width: 40em) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+}

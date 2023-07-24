@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 30px;
+}
+.link {
+  margin: 12px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration-line: none;
+  transition: all 0.3s;
+}
+
+.link:active,
+.link:focus,
+.link:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 15px;
+  color: #6200ee;
+}
+/* 640 px mobile */
+@media only screen and (max-width: 40em) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}

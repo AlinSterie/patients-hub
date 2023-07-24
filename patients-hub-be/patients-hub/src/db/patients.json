@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "details": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "male",
+      "birthDate": "1980-01-18",
+      "address": "123 Main Street",
+      "personalNumericCode": "1234567890123",
+      "idSeriesAndNumber": "AB123456",
+      "typeOfInsurance": "Health",
+      "statusOfTheInsured": "Active",
+      "typeOfAdmission": "Emergency",
+      "specialization": "Allergy and Immunology",
+      "roomNo": "123"
+    },
+    "diagnosis": {
+      "initial": "COVID-19",
+      "last72Hours": "COVID-19",
+      "final": "healthy"
+    },
+    "surgery": {
+      "teamOfMedics": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "details": "Cras vitae placerat dui. Fusce ipsum neque, vulputate et eleifend eget, scelerisque elementum neque. Suspendisse a nisi ipsum.",
+      "date": "01.04.2023"
+    },
+    "history": {
+      "heredoCollateralAntecedents": "Heredo-collateral antecedents",
+      "livingAndWorkingConditions": "Living and working conditions",
+      "behaviors": "Behaviors (smoking, alcohol, etc.)",
+      "backgroundMedication": "Background medication administered before hospitalization",
+      "historyOfDisease": "History of disease",
+      "generalClinicalExamination": "General Clinical Examination"
+    },
+    "evolutionAndTreatment": [
+      {
+        "from": "27.03.2023",
+        "to": "01.04.2023",
+        "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod aliquet metus. Donec tempor, turpis non dignissim rutrum, turpis ligula bibendum lorem, vel luctus quam tortor sed sem. Suspendisse posuere dapibus nisl vitae rhoncus. Aliquam convallis vel diam in aliquet."
+      }
+    ]
+  }
+]

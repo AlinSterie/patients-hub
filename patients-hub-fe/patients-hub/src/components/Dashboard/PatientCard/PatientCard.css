@@ -1,0 +1,49 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.patient-card {
+  background-color: #8067e3;
+  border: 1px solid #14ffd5;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0.625rem;
+  width: 15rem;
+  height: 16.25rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+.card-header {
+  padding: 2rem 1.3rem 0rem;
+  width: 13rem;
+  font-weight: 700;
+}
+.card-main {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0.5rem 0rem;
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 0.7rem;
+  color: white;
+  font-weight: 700;
+}
+.card-footer-room-no,
+.card-footer-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-footer-room-no span,
+.card-footer-date span {
+  padding-top: 0.5rem;
+}

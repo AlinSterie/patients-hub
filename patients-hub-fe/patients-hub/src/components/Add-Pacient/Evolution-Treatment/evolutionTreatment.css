@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  margin-top: 50px;
+}
+.button {
+  color: #2d9fc2;
+  margin: 30px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+/* 640 px mobile */
+/* @media only screen and (max-width: 40em) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+} */
