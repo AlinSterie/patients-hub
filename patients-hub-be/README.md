@@ -1,21 +1,29 @@
-# fe-patients-board-4
+# team-4-be-mock
 
-## Project description
+## User apis list
 
-As a medical staff I want to see details about the pacients (as room number, and registration forms and observed data) so that I can track empty beds for new pacients and have a clear view of the hospital’s capacity.
+GET /user
+POST /user/register
+POST /user/login
+POST /user/forgot-password
+POST /user/reset-password
 
-## Link Figma:
+## Patient apis list
 
-https://www.figma.com/file/kRgAkPdxYKS9Yl8nNt8brK/Pacients-Hub?node-id=6-2&t=fUVEaXmtJrzhwsSo-0
+GET /patient/:id
+GET /patient/all
 
-## Setup
+GET /patient/details/:id
+POST /patient/details/:id?
 
-```
-npm i
-npm start
-```
+GET /patient/diagnosis/:id
+POST /patient/diagnosis/:id?
 
-## Way of working:
+GET /patient/surgery/:id
+POST /patient/surgery/:id?
 
-- Create PRs
-- Wait for approval before merging
+GET /patient/history/:id
+POST /patient/history/:id?
+
+GET /patient/evolution-and-treatment/:id
+POST /patient/evolution-and-treatment/:id?

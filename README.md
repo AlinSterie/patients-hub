@@ -8,11 +8,14 @@ As a medical staff I want to see details about the pacients (as room number, and
 
 https://www.figma.com/file/kRgAkPdxYKS9Yl8nNt8brK/Pacients-Hub?node-id=6-2&t=fUVEaXmtJrzhwsSo-0
 
-## Link Trello:
+## Setup for backend
 
-https://trello.com/b/lthqqGHW/team-4
+```
+npm i
+npm start
+```
 
-## Setup
+## Setup for frontend
 
 ```
 npm i
